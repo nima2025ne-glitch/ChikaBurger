@@ -216,6 +216,14 @@ input{
     background-color: black;
 }
 
+#map {
+  width: 100%;
+  height: 300px; 
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 @keyframes ani1 {
     0%   { background-color: #39bd28; }
     25%  { background-color: #c2d14d; }
@@ -278,3 +286,4 @@ input{
     display: flex;
     gap: 20px;
 }
+
