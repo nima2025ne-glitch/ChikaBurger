@@ -15,9 +15,17 @@ body {
     margin: 0;
 }
 
-.card{
-    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 h1 , h2 , h3 , h4 , h5 , h6 {
     font-family: "lale";
